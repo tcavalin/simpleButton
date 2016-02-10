@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simple buttons</title>
+        <title>simpleButton - A simple CSS3 button with 3D effect.</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="buttons.min.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <p><a href="#" class="button has-icon"><span class="icon next"></span>Próximo passo</a></p>
-        <p><a href="#" class="button has-icon disabled"><span class="icon next"></span>Próximo passo</a></p>
-        <p><button class="button success">Próximo passo</button></p>
-        <p><button class="button has-icon action"><span class="icon next"></span>Próximo passo</button></p>
-        <p><a href="#" class="button has-icon critical"><span class="icon previous"></span>Próximo passo</a></p>
+        <header>
+            <h1>simpleButton</h1>
+            <h3>A simple CSS3 button with 3D effect</h3>
+            <a href="https://github.com/tcavalin/simpleButton" id="github" target="_blank" title=""><img src="images/github.png" /></a>
+        </header>
+
+        <section>
+            <h2>Basic usage:</h2>
+            <article>
+                <p>The "buttons" can be created by adding <code>class="button"</code> to any appropriate <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.</p>
+                <pre>&lt;button class="button"&gt;Próximo passo&lt;/button&gt;</pre>
+                <p><button class="button">Próximo passo</button></p>
+            </article>
+            <article>
+                <p>Add a class has-icon to create a icon to the left - you need to add a <code>&lt;span&gt;</code> element with a <code>class="icon"</code> class and an available class of icon.</p>
+                <pre>&lt;a href="#" class="button has-icon"&gt;&lt;span class="icon next"&gt;&lt;/span&gt;Próximo passo&lt;/a&gt;</pre>
+                <p><a href="#" class="button has-icon"><span class="icon next"></span>Próximo passo</a></p>
+            </article>
+            
+            <h2>More examples:</h2>
+            <article>
+                <pre>&lt;a href="#" class="button has-icon disabled"&gt;&lt;span class="icon next"&gt;&lt;/span&gt;Próximo passo&lt;/a&gt;</pre>
+                <p><a href="#" class="button has-icon disabled"><span class="icon next"></span>Próximo passo</a></p>
+            </article>
+            <article>
+                <pre>&lt;button class="button success"&gtPróximo passo&lt;/button&gt;</pre>
+                <p><button class="button success">Próximo passo</button></p>
+            </article>
+            <article>
+                <pre>&lt;button class="button has-icon action"&gt;&lt;span class="icon next"&gt;&lt;/span&gt;Próximo passo&lt;/a&gt;</pre>
+                <p><button class="button has-icon action"><span class="icon next"></span>Próximo passo</button></p>
+            </article>
+            <article>
+                <pre>&lt;a href="#" class="button has-icon critical"&gt;&lt;span class="icon previous"&gt;&lt;/span&gt;Próximo passo&lt;/a&gt;</pre>
+                <p><a href="#" class="button has-icon critical"><span class="icon previous"></span>Próximo passo</a></p>
+            </article>
+        </section>
+
+        <footer>
+            <a href="https://github.com/tcavalin/simpleButton" target="_blank">simpleButton</a> by <a href="https://github.com/tcavalin" target="_blank">Tiago Cavalin</a>
+        </footer>
     </body>
 </html>
