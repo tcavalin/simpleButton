@@ -16,6 +16,9 @@ Add a class `has-icon` to create a icon to the left - you need to add a `<span>`
 ## More examples: ##
 
     <p><a href="#" class="button has-icon disabled"><span class="icon next"></span>Próximo passo</a></p>
+
     <p><button class="button success">Próximo passo</button></p>
+
     <p><button class="button has-icon action"><span class="icon next"></span>Próximo passo</button></p>
+
     <p><a href="#" class="button has-icon critical"><span class="icon previous"></span>Próximo passo</a></p>
