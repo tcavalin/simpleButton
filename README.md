@@ -1,6 +1,8 @@
 # simpleButton
 This is a simple CSS button with 3D effect
 
+![screenshot](https://cloud.githubusercontent.com/assets/6153386/12953622/6511bace-d002-11e5-86e8-10e7fa2016d6.gif)
+
 ## Buttons ##
 
 The "buttons" can be created by adding `class="button"` to any appropriate `<a>`, `<button>`, or `<input>` element.
