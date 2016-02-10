@@ -13,6 +13,8 @@ Add a class `has-icon` to create a icon to the left - you need to add a `<span>`
 
     <p><button class="button has-icon"><span class="icon next"></span>Próximo passo</button></p>
 
+Demo: http://tcavalin.github.io/simpleButton/
+
 ## More examples: ##
 
     <p><a href="#" class="button has-icon disabled"><span class="icon next"></span>Próximo passo</a></p>
