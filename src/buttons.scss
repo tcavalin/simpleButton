@@ -65,7 +65,7 @@
     
     @include no-select();
 
-    &.has-icon{
+    &.has-icon {
         padding-left: 50px; 
     }
 
@@ -92,13 +92,14 @@
     }
 
     &:hover {
-        background-color: darken(#b1b1b1, 5%);        
+        background-color: darken(#b1b1b1, 5%);
 
         text-decoration: none;
         color:#fff;
     }
-
-    &:active{
+    &:active {
+        background: darken(#b1b1b1, 10%);
+        
         padding-top: 10px;
         padding-bottom: 10px;
         margin-top: 2px;
@@ -112,6 +113,14 @@
             padding-top: 1px
         }
     }
+    &.has-icon {
+        &:active {
+            background: darken(#b1b1b1, 15%);
+            background: -moz-linear-gradient(left,  darken(#b1b1b1, 15%) 0%, darken(#b1b1b1, 10%) 50%);
+            background: -webkit-linear-gradient(left,  darken(#b1b1b1, 15%) 0%, darken(#b1b1b1, 10%) 50%);
+            background: linear-gradient(to right,  darken(#b1b1b1, 15%) 0%, darken(#b1b1b1, 10%) 50%);
+        }
+    }
 
     &.disabled,
     &.disabled:active,
@@ -121,10 +130,12 @@
     &[disabled]:active,
     &[disabled]:focus {
 
-        background-color: lighten(#b1b1b1, 10%)!important;
+        background-color: lighten(#b1b1b1, 8%)!important;
         cursor: default;
         
         &:active{
+            background: lighten(#b1b1b1, 8%)!important;
+            
             padding-top: 10px;
             padding-bottom: 11px;
             margin-top: 1px;
@@ -148,10 +159,18 @@
         background: #5dc178;
 
         &:hover {
-            background-color: darken(#5dc178, 5%);  
+            background-color: darken(#5dc178, 5%);
         }
         &:active {
-            background: #5dc178;
+            background: darken(#5dc178, 10%);
+        }
+        &.has-icon {
+            &:active {
+                background: darken(#5dc178, 15%);
+                background: -moz-linear-gradient(left,  darken(#5dc178, 15%) 0%, darken(#5dc178, 10%) 50%);
+                background: -webkit-linear-gradient(left,  darken(#5dc178, 15%) 0%, darken(#5dc178, 10%) 50%);
+                background: linear-gradient(to right,  darken(#5dc178, 15%) 0%, darken(#5dc178, 10%) 50%);
+            }
         }
 
         span.icon {
@@ -163,10 +182,18 @@
         background: #5caabe;
 
         &:hover {
-            background-color: darken(#5caabe, 5%);  
+            background-color: darken(#5caabe, 5%);
         }
         &:active {
-            background: #5caabe;
+            background: darken(#5caabe, 10%);
+        }
+        &.has-icon {
+            &:active {
+                background: darken(#5caabe, 15%);
+                background: -moz-linear-gradient(left,  darken(#5caabe, 15%) 0%, darken(#5caabe, 10%) 50%);
+                background: -webkit-linear-gradient(left,  darken(#5caabe, 15%) 0%, darken(#5caabe, 10%) 50%);
+                background: linear-gradient(to right,  darken(#5caabe, 15%) 0%, darken(#5caabe, 10%) 50%);
+            }
         }
 
         span.icon {
@@ -178,10 +205,18 @@
         background: #C46868;
 
         &:hover {
-            background-color: darken(#C46868, 5%);  
+            background-color: darken(#C46868, 5%);
         }
         &:active {
-            background: #C46868;
+            background: darken(#C46868, 10%);
+        }
+        &.has-icon {
+            &:active {
+                background: darken(#C46868, 15%);
+                background: -moz-linear-gradient(left,  darken(#C46868, 15%) 0%, darken(#C46868, 10%) 50%);
+                background: -webkit-linear-gradient(left,  darken(#C46868, 15%) 0%, darken(#C46868, 10%) 50%);
+                background: linear-gradient(to right,  darken(#C46868, 15%) 0%, darken(#C46868, 10%) 50%);
+            }
         }
 
         span.icon {
